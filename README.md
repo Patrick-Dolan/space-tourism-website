@@ -95,7 +95,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Patrick Dolan](https://www.your-site.com)
+- Website - [Patrick Dolan](https://patrickdolan.dev/)
 - Frontend Mentor - [@Patrick-Dolan](https://www.frontendmentor.io/profile/Patrick-Dolan)
 
 
