@@ -1,8 +1,8 @@
 function App() {
   return (
-    <h1 className="text-3xl font-bold">
-      App component
-    </h1>
+    <div className="container mx-6">
+      <p>App component</p>
+    </div>
   )
 }
 
