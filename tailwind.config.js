@@ -5,8 +5,28 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
+        tertiary: "var(--tertiary)",
+      },
+      fontSize: {
+        "lg-h1": "9.375rem",
+        "lg-h2": "6.25rem",
+        "lg-h3": "3.5rem",
+        "lg-h4": "2rem",
+        "lg-h5": "1.75rem",
+        "md-h1": "9.375rem",
+        "md-h2": "5rem",
+        "md-h3": "2.5rem",
+        "md-h4": "1.5rem",
+        "md-h5": "1.25rem",
+      },
+      fontFamily: {
+        secondary: ["Barlow Condensed", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 }
-

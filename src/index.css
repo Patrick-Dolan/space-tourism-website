@@ -5,6 +5,12 @@
 
 /* Global styles */
 
+:root {
+  --primary: #FFFFFF;
+  --secondary: #D0D6F9;
+  --tertiary: #0B0D17;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -17,4 +23,26 @@ img {
 body {
   margin: 0;
   padding: 0;
+  font-family: "Bellefair", serif;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 1rem;
+  letter-spacing: 0.297rem;
 }
