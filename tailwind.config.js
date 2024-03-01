@@ -26,6 +26,11 @@ export default {
       fontFamily: {
         secondary: ["Barlow Condensed", "sans-serif"],
       },
+      letterSpacing: {
+        nav: "0.169rem",
+        h5: "0.297rem",
+        subhead: "2.35rem"
+      },
     },
   },
   plugins: [],
