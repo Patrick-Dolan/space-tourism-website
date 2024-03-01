@@ -30,7 +30,7 @@ function Navbar() {
         {mobileNavOpen && (
           <div className="fixed inset-0 flex justify-end" onClick={handleOverlayClick}>
             <nav 
-              className="w-64 bg-white bg-opacity-5 backdrop-blur-2xl h-full p-8 pt-28 overflow-auto" 
+              className="w-64 bg-white bg-opacity-5 backdrop-blur-2xl h-full p-8 pt-29 overflow-auto" 
               onClick={e => e.stopPropagation()}
             >
               <ul className="uppercase text-primary flex flex-col gap-8 font-secondary">

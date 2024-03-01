@@ -28,8 +28,11 @@ export default {
       },
       letterSpacing: {
         nav: "0.169rem",
-        h5: "0.297rem",
+        "md-h5": "0.294rem",
         subhead: "2.35rem"
+      },
+      spacing: {
+        29: "7.25rem",
       },
     },
   },
