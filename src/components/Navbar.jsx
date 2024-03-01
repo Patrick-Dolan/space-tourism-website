@@ -11,9 +11,13 @@ function Navbar() {
     setMobileNavOpen(!mobileNavOpen);
   }
 
+  function handleOverlayClick() {
+    setMobileNavOpen(false);
+  }
+
   return (
     <>
-      <header className="flex justify-between items-center py-6">
+      <header className="flex justify-between items-center">
         <Link to="/">
           <LogoIcon height={40} width={40}/>
         </Link>
@@ -23,27 +27,30 @@ function Navbar() {
             : <HamburgerIcon className="md:hidden" />
           }
         </button>
+        {mobileNavOpen && (
+          <div className="fixed inset-0 flex justify-end" onClick={handleOverlayClick}>
+            <nav 
+              className="w-64 bg-white bg-opacity-5 backdrop-blur-2xl h-full p-8 pt-28 overflow-auto" 
+              onClick={e => e.stopPropagation()}
+            >
+              <ul className="uppercase text-primary flex flex-col gap-8 font-secondary">
+                <li>
+                  <Link to="/" className="tracking-nav" onClick={handleMobileNavToggle}><span className="inline-block min-w-9 font-bold">00</span>Home</Link>
+                </li>
+                <li>
+                  <Link to="/destination" className="tracking-nav" onClick={handleMobileNavToggle}><span className="inline-block min-w-9 font-bold">01</span>Destination</Link>
+                </li>
+                <li>
+                  <Link to="/crew" className="tracking-nav" onClick={handleMobileNavToggle}><span className="inline-block min-w-9 font-bold">02</span>Crew</Link>
+                </li>
+                <li>
+                  <Link to="/technology" className="tracking-nav" onClick={handleMobileNavToggle}><span className="inline-block min-w-9 font-bold">03</span>Technology</Link>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        )}
       </header>
-      {mobileNavOpen && (
-        <div className="fixed inset-0 flex justify-end">
-          <nav className="w-64 bg-white bg-opacity-5 backdrop-blur-2xl h-full p-8 pt-28 overflow-auto">
-            <ul className="uppercase text-primary flex flex-col gap-8 font-secondary">
-              <li>
-                <Link to="/" className="tracking-nav" onClick={handleMobileNavToggle}><span className="inline-block min-w-9 font-bold">00</span>Home</Link>
-              </li>
-              <li>
-                <Link to="/destination" className="tracking-nav" onClick={handleMobileNavToggle}><span className="inline-block min-w-9 font-bold">01</span>Destination</Link>
-              </li>
-              <li>
-                <Link to="/crew" className="tracking-nav" onClick={handleMobileNavToggle}><span className="inline-block min-w-9 font-bold">02</span>Crew</Link>
-              </li>
-              <li>
-                <Link to="/technology" className="tracking-nav" onClick={handleMobileNavToggle}><span className="inline-block min-w-9 font-bold">03</span>Technology</Link>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      )}
     </>
   );
 }
