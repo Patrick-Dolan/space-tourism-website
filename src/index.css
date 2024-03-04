@@ -47,3 +47,9 @@ h5 {
   font-size: 1rem;
   letter-spacing: 0.169rem;
 }
+
+p {
+  font-family: "Barlow", sans-serif;
+  line-height: 1.563rem;
+  font-size: 0.938rem;
+}

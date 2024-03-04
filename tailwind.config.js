@@ -22,9 +22,11 @@ export default {
         "md-h3": "2.5rem",
         "md-h4": "1.5rem",
         "md-h5": "1.25rem",
+        "md-p": "1rem"
       },
       fontFamily: {
-        secondary: ["Barlow Condensed", "sans-serif"],
+        primary: ["Barlow", "sans-serif"],
+        "secondary-condensed": ["Barlow Condensed", "sans-serif"],
       },
       letterSpacing: {
         nav: "0.169rem",
@@ -33,7 +35,12 @@ export default {
       },
       spacing: {
         29: "7.25rem",
+        "mobile-button": "9.375rem",
+        "desktop-button": "15.125rem",
       },
+      leading: {
+        md: "1.75rem"
+      }
     },
   },
   plugins: [],
