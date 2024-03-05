@@ -10,6 +10,7 @@ export default {
         primary: "var(--primary)",
         secondary: "var(--secondary)",
         tertiary: "var(--tertiary)",
+        inactive: "var(--inactive)",
       },
       borderColor: {
         primary: "var(--border)"
@@ -62,12 +63,21 @@ export default {
       },
       height: {
         planet: "10.625rem",
+        crew: "13.875rem",
+        "nav-dot": "0.625rem"
       },
       width: {
         planet: "10.625rem",
+        "nav-dot": "0.625rem"
       },
       borderWidth: {
         3: "3px"
+      },
+      opacity: {
+        17: "0.17"
+      },
+      backdropBlur: {
+        tiny: "1px"
       },
     },
   },

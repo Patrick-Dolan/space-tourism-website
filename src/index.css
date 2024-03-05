@@ -10,6 +10,7 @@
   --secondary: #D0D6F9;
   --tertiary: #0B0D17;
   --border: #383B4B;
+  --inactive: #979797;
 }
 
 *, *::before, *::after {

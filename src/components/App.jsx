@@ -29,7 +29,9 @@ function App() {
   }
 
   return (
-    <div className={`container p-6 text-primary min-h-screen ${bgImage} bg-fixed bg-no-repeat bg-cover bg-center`}>
+    <div className="relative min-h-screen min-w-screen bg-tertiary">
+    <div className={`fixed inset-0 ${bgImage} bg-fixed bg-no-repeat bg-top bg-cover z-0 opacity-75`}></div>
+    <div className="relative container p-6 text-primary min-h-screen z-1">
       <Navbar />
       <main>
         <Routes>
@@ -41,6 +43,7 @@ function App() {
         </Routes>
       </main>
     </div>
+  </div>
   );
 }
 
