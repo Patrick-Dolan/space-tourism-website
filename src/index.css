@@ -9,6 +9,7 @@
   --primary: #FFFFFF;
   --secondary: #D0D6F9;
   --tertiary: #0B0D17;
+  --border: #383B4B;
 }
 
 *, *::before, *::after {
@@ -24,7 +25,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Bellefair", serif;
-  background-image: url("./assets/home/background-home-mobile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
