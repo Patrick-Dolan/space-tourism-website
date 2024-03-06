@@ -10,8 +10,8 @@ function TechnologyPage() {
     <>
       <PageHeader number="03" title="Space launch 101" />
       {/* The following div is an empty div used to make space for the absolutely positioned image below.*/}
-      <div className="mt-8" style={{ paddingTop: '45.3%' }} /> 
-      <img src={"./src" + selectedTechnology.images.landscape.substring(1)} alt={`${selectedTechnology.name}`} className="mt-14 absolute left-0 top-0 w-full" />
+      <div className="mt-8 md:mt-14" style={{ paddingTop: '45.3%' }} /> 
+      <img src={"./src" + selectedTechnology.images.landscape.substring(1)} alt={`${selectedTechnology.name}`} className="mt-14 md:mt-21 absolute left-0 top-0 w-full" />
       <div className="flex justify-center gap-7 mt-12 md:my-12">
         {technology.map((tech, index) => (
           <div key={tech.name}>

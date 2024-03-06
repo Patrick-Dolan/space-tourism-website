@@ -45,6 +45,7 @@ export default {
         13: "3.25rem",
         14: "3.5rem",
         15: "3.75rem",
+        21: "5.25rem",
         26: "6.5rem",
         29: "7.25rem",
         "mobile-button": "9.375rem",
