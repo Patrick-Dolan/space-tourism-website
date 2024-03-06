@@ -64,6 +64,9 @@ export default {
         "technology-tablet": "url('./assets/technology/background-technology-tablet.jpg')",
         "technology-desktop": "url('./assets/technology/background-technology-desktop.jpg')",
       },
+      screens: {
+        "lg": "1440px"
+      },
       height: {
         planet: "10.625rem",
         crew: "13.875rem",
