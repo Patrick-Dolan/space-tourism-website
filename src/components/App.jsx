@@ -65,7 +65,7 @@ function App() {
       <div className={`fixed inset-0 ${bgImage} bg-fixed bg-no-repeat bg-cover z-0 opacity-75`}></div>
       <div className="relative">
         <Navbar />
-        <div className="relative container px-6 pb-6 text-primary min-h-screen z-1 mx-auto">
+        <div className="relative container px-6 pb-6 text-primary min-h-screen md:min-h-0 z-1 mx-auto md:px-10">
           <main>
             <Routes>
               <Route path="/" element={<HomePage />} />

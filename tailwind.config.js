@@ -41,6 +41,10 @@ export default {
         subhead: "0.147rem"
       },
       spacing: {
+        12: "3rem",
+        13: "3.25rem",
+        14: "3.5rem",
+        15: "3.75rem",
         26: "6.5rem",
         29: "7.25rem",
         "mobile-button": "9.375rem",
@@ -69,18 +73,24 @@ export default {
       },
       height: {
         planet: "10.625rem",
+        ["planet-tablet"]: "18.75rem",
         crew: "13.875rem",
         "nav-dot": "0.625rem",
       },
       width: {
         planet: "10.625rem",
+        ["planet-tablet"]: "18.75rem",
         "nav-dot": "0.625rem",
         "smallest-screen": "600px",
         112: "28rem"
       },
       maxWidth: {
         103: "25.75rem",
-        112: "28rem"
+        112: "28rem",
+        143: "35.75rem",
+      },
+      minWidth: {
+        56: "14rem",
       },
       borderWidth: {
         3: "3px"
