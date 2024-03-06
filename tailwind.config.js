@@ -68,7 +68,8 @@ export default {
       },
       width: {
         planet: "10.625rem",
-        "nav-dot": "0.625rem"
+        "nav-dot": "0.625rem",
+        "smallest-screen": "600px"
       },
       borderWidth: {
         3: "3px"
