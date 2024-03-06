@@ -11,6 +11,7 @@
   --tertiary: #0B0D17;
   --border: #383B4B;
   --inactive: #979797;
+  --opaque: rgba(255, 255, 255, 0.05);
 }
 
 *, *::before, *::after {

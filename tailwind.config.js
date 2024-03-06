@@ -11,6 +11,7 @@ export default {
         secondary: "var(--secondary)",
         tertiary: "var(--tertiary)",
         inactive: "var(--inactive)",
+        opaque: "var(--opaque)",
       },
       borderColor: {
         primary: "var(--border)"
@@ -36,13 +37,15 @@ export default {
       },
       letterSpacing: {
         nav: "0.169rem",
-        "md-h5": "0.294rem",
+        "md-h5": "0.211rem",
         subhead: "0.147rem"
       },
       spacing: {
+        26: "6.5rem",
         29: "7.25rem",
         "mobile-button": "9.375rem",
-        "desktop-button": "15.125rem",
+        "tablet-button": "15.125rem",
+        "desktop-button": "17.125rem",
       },
       leading: {
         md: "1.75rem"
@@ -64,15 +67,23 @@ export default {
       height: {
         planet: "10.625rem",
         crew: "13.875rem",
-        "nav-dot": "0.625rem"
+        "nav-dot": "0.625rem",
       },
       width: {
         planet: "10.625rem",
         "nav-dot": "0.625rem",
-        "smallest-screen": "600px"
+        "smallest-screen": "600px",
+        112: "28rem"
+      },
+      maxWidth: {
+        103: "25.75rem",
+        112: "28rem"
       },
       borderWidth: {
         3: "3px"
+      },
+      gap: {
+        39: "9.75rem"
       },
       opacity: {
         17: "0.17"
