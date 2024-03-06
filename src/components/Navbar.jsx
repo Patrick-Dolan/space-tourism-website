@@ -1,11 +1,13 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import LogoIcon from "../assets/shared/LogoIcon";
 import HamburgerIcon from "../assets/shared/HamburgerIcon";
 import CloseIcon from "../assets/shared/CloseIcon";
+import MobileNav from "./navigation/MobileNav";
 
 function Navbar() {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
+  const location = useLocation();
 
   function handleMobileNavToggle() {
     setMobileNavOpen(!mobileNavOpen);
@@ -15,10 +17,29 @@ function Navbar() {
     setMobileNavOpen(false);
   }
 
+  const paths = {
+    home: {
+      path: "/",
+      name: "Home",
+    },
+    destination: {
+      path: "/destination",
+      name: "Destination",
+    },
+    crew: {
+      path: "/crew",
+      name: "Crew",
+    },
+    technology: {
+      path: "/technology",
+      name: "Technology",
+    },
+  };
+
   return (
     <>
-      <header className="flex justify-between min-w-screen items-center px-6 pt-6 z-40">
-        <Link to="/">
+      <header className="flex justify-between min-w-screen items-center px-6 pt-6 z-40 md:pt-0 md:px-0">
+        <Link to="/" className="md:pl-10">
           <LogoIcon height={40} width={40}/>
         </Link>
         <button className="text-primary focus:outline-none md:hidden z-50" onClick={handleMobileNavToggle}>
@@ -28,28 +49,22 @@ function Navbar() {
           }
         </button>
         {mobileNavOpen && (
-          <div className="absolute inset-0 flex justify-end z-40" onClick={handleOverlayClick}>
-            <nav 
-              className="w-64 bg-white bg-opacity-5 backdrop-blur-2xl h-full p-8 pt-29 overflow-auto " 
-              onClick={e => e.stopPropagation()}
-            >
-              <ul className="uppercase text-primary flex flex-col gap-8 font-secondary">
-                <li>
-                  <Link to="/" className="tracking-nav" onClick={handleMobileNavToggle}><span className="inline-block min-w-9 font-bold">00</span>Home</Link>
-                </li>
-                <li>
-                  <Link to="/destination" className="tracking-nav" onClick={handleMobileNavToggle}><span className="inline-block min-w-9 font-bold">01</span>Destination</Link>
-                </li>
-                <li>
-                  <Link to="/crew" className="tracking-nav" onClick={handleMobileNavToggle}><span className="inline-block min-w-9 font-bold">02</span>Crew</Link>
-                </li>
-                <li>
-                  <Link to="/technology" className="tracking-nav" onClick={handleMobileNavToggle}><span className="inline-block min-w-9 font-bold">03</span>Technology</Link>
-                </li>
-              </ul>
-            </nav>
-          </div>
+          <MobileNav handleOverlayClick={handleOverlayClick} handleMobileNavToggle={handleMobileNavToggle} />
         )}
+        <nav className="hidden md:flex md:justify-center md:bg-opaque md:w-112">
+          <ul className="uppercase text-primary flex items-center gap-9 font-secondary md:min-h-24">
+            {Object.values(paths).map((path) => (
+              <li key={path.name}>
+                <Link 
+                  to={path.path} 
+                  className={`py-9 tracking-nav text-sub font-primary-condensed ${path.path === location.pathname ? "border-b-3" : null}`}
+                >
+                  {path.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
       </header>
     </>
   );
