@@ -75,6 +75,7 @@ export default {
         planet: "10.625rem",
         ["planet-tablet"]: "18.75rem",
         crew: "13.875rem",
+        "md-crew": "33.25rem",
         "nav-dot": "0.625rem",
       },
       width: {
