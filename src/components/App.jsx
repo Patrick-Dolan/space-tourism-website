@@ -31,17 +31,19 @@ function App() {
   return (
     <div className="relative min-h-screen min-w-screen bg-tertiary">
     <div className={`fixed inset-0 ${bgImage} bg-fixed bg-no-repeat bg-top bg-cover z-0 opacity-75`}></div>
-    <div className="relative container p-6 text-primary min-h-screen z-1">
+    <div className="relative">
       <Navbar />
-      <main>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/destination" element={<DestinationPage />} />
-          <Route path="/crew" element={<CrewPage />} />
-          <Route path="/technology" element={<TechnologyPage />} />
-          <Route path="*" element={<NotFoundPage />} />
-        </Routes>
-      </main>
+      <div className="relative container px-6 pb-6 text-primary min-h-screen z-1 mx-auto">
+        <main>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/destination" element={<DestinationPage />} />
+            <Route path="/crew" element={<CrewPage />} />
+            <Route path="/technology" element={<TechnologyPage />} />
+            <Route path="*" element={<NotFoundPage />} />
+          </Routes>
+        </main>
+      </div>
     </div>
   </div>
   );

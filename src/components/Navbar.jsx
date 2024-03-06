@@ -17,7 +17,7 @@ function Navbar() {
 
   return (
     <>
-      <header className="flex justify-between items-center z-40">
+      <header className="flex justify-between min-w-screen items-center px-6 pt-6 z-40">
         <Link to="/">
           <LogoIcon height={40} width={40}/>
         </Link>
