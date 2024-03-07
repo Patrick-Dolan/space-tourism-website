@@ -12,6 +12,7 @@
   --border: #383B4B;
   --inactive: #979797;
   --opaque: rgba(255, 255, 255, 0.05);
+  --hover: rgba(255, 255, 255, 0.25);
 }
 
 *, *::before, *::after {

@@ -12,6 +12,7 @@ export default {
         tertiary: "var(--tertiary)",
         inactive: "var(--inactive)",
         opaque: "var(--opaque)",
+        hover: "var(--hover)",
       },
       borderColor: {
         primary: "var(--border)"

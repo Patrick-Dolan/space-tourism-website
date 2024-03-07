@@ -22,7 +22,7 @@ function DestinationPage() {
               <div key={destination.name}>
                 <button
                   onClick={() => setSelectedDestination(destination)}
-                  className={`block uppercase font-primary-condensed text-sub md:text-base ${destination.name === selectedDestination.name ? "text-primary border-b-3 pb-2" : "text-secondary"}  tracking-nav`}
+                  className={`block uppercase font-primary-condensed text-sub md:text-base hover:border-b-3 hover:border-hover hover:pb-2 ${destination.name === selectedDestination.name ? "text-primary border-b-3 pb-2" : "text-secondary"}  tracking-nav`}
                 >
                   {destination.name}
                 </button>
