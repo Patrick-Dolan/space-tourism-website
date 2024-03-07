@@ -46,6 +46,7 @@ export default {
         13: "3.25rem",
         14: "3.5rem",
         15: "3.75rem",
+        16: "4rem",
         21: "5.25rem",
         26: "6.5rem",
         29: "7.25rem",
@@ -78,6 +79,7 @@ export default {
       height: {
         planet: "10.625rem",
         ["planet-tablet"]: "18.75rem",
+        ["planet-desktop"]: "27.75rem",
         crew: "13.875rem",
         "md-crew": "33.25rem",
         "nav-dot": "0.625rem",
@@ -87,6 +89,7 @@ export default {
       width: {
         planet: "10.625rem",
         ["planet-tablet"]: "18.75rem",
+        ["planet-desktop"]: "27.75rem",
         "nav-dot": "0.625rem",
         "smallest-screen": "600px",
         15: "3.75rem",
@@ -97,10 +100,14 @@ export default {
       },
       maxWidth: {
         103: "25.75rem",
+        111: "27.75rem",
         112: "28rem",
         114: "28.5rem",
         143: "35.75rem",
         277: "69.25rem",
+      },
+      minHeight: {
+        118: "29.5rem",
       },
       minWidth: {
         56: "14rem",
