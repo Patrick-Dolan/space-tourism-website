@@ -27,7 +27,7 @@ function TechnologyPage({ windowWidth }) {
             <div key={tech.name}>
               <button
                 onClick={() => setSelectedTechnology(tech)}
-                className={`block font-secondary text-sub h-10 w-10 md:h-15 md:w-15 md:text-md-h4 rounded-full border border-white leading-10 lg:text-lg-h4 lg:w-20 lg:h-20 ${tech.name === selectedTechnology.name ? "text-tertiary bg-white" : " border-opacity-25"}`}
+                className={`block font-secondary text-sub h-10 w-10 md:h-15 md:w-15 md:text-md-h4 rounded-full border border-white leading-10 lg:text-lg-h4 lg:w-20 lg:h-20 hover:border-white ${tech.name === selectedTechnology.name ? "text-tertiary bg-white" : " border-opacity-25"}`}
               >
                 {index + 1}
               </button>
