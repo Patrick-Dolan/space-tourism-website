@@ -38,7 +38,8 @@ export default {
       letterSpacing: {
         nav: "0.169rem",
         "md-h5": "0.211rem",
-        subhead: "0.147rem"
+        subhead: "0.147rem",
+        lg: "0.295rem"
       },
       spacing: {
         12: "3rem",
@@ -48,12 +49,14 @@ export default {
         21: "5.25rem",
         26: "6.5rem",
         29: "7.25rem",
+        63: "15.75rem",
         "mobile-button": "9.375rem",
         "tablet-button": "15.125rem",
         "desktop-button": "17.125rem",
       },
       leading: {
-        md: "1.75rem"
+        md: "1.75rem",
+        lg: "2rem"
       },
       backgroundImage: {
         "home-mobile": "url('./assets/home/background-home-mobile.jpg')",
@@ -97,16 +100,19 @@ export default {
         112: "28rem",
         114: "28.5rem",
         143: "35.75rem",
+        277: "69.25rem",
       },
       minWidth: {
         56: "14rem",
+        112: "28.125rem",
       },
       borderWidth: {
         3: "3px"
       },
       gap: {
         13: "3.25rem",
-        39: "9.75rem"
+        39: "9.75rem",
+        desktop: "24.125rem"
       },
       opacity: {
         17: "0.17"
