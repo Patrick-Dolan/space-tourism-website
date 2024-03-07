@@ -32,7 +32,7 @@ function DestinationPage() {
           <h2 className="uppercase text-center md:text-md-h2 lg:text-left lg:text-lg-h2">{selectedDestination.name}</h2>
           <p className="text-center text-secondary md:text-base lg:text-left lg:text-lg lg:leading-lg">{selectedDestination.description}</p>
           <hr className="border-primary my-8 md:mt-12 md:mb-7 lg:mt-13" />
-          <div className="md:flex md:justify-start md:gap-3">
+          <div className="md:flex md:justify-center md:gap-3 lg:justify-start">
             <div className="md:min-w-56 lg:min-w-none">
               <p className="uppercase text-center tracking-subhead font-primary-condensed text-secondary text-sub lg:text-left">Avg. Distance</p>
               <p className="text-center text-lg-h5 font-secondary mt-3 uppercase lg:text-left">{selectedDestination.distance}</p>
