@@ -9,10 +9,10 @@ function DestinationPage() {
   return (
     <div className="lg:max-w-277 lg:mx-auto">
       <PageHeader number="01" title="Pick your destination" />
-      <div className="md:max-w-143 md:mx-auto lg:max-w-none lg:min-h-118 lg:flex lg:justify-center lg:items-end lg:gap-39 lg:mt-16">
+      <div className="md:max-w-143 md:mx-auto lg:max-w-none lg:min-h-118 lg:flex lg:justify-between lg:items-end lg:gap-39 lg:mt-16">
         <div>
           <img
-            className="h-planet w-planet mx-auto mt-8 mb-6 md:h-planet-tablet md:w-planet-tablet md:mt-15 md:mb-13 lg:h-planet-desktop lg:w-planet-desktop lg:m-0"
+            className="h-planet w-planet mx-auto mt-8 mb-6 md:h-planet-tablet md:w-planet-tablet md:mt-15 md:mb-13 lg:h-planet-desktop lg:w-planet-desktop lg:m-0 lg:ml-10"
             src={"./src" + selectedDestination.images.png.substring(1)}
           />
         </div>
