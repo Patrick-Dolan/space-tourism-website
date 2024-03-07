@@ -60,7 +60,7 @@ function Navbar({ windowWidth }) {
               <li key={path.name}>
                 <Link 
                   to={path.path} 
-                  className={`py-9 tracking-nav text-sub lg:text-base font-primary-condensed ${path.path === location.pathname ? "border-b-3" : ""}`}
+                  className={`py-9 tracking-nav text-sub lg:text-base font-primary-condensed ${path.path === location.pathname ? "border-b-3" : "hover:border-b-3 hover:border-hover"}`}
                 >
                   {windowWidth >= 1440 && <span className="p-3 font-bold">{"0" + index}</span>}
                   {path.name}
