@@ -64,7 +64,7 @@ function App() {
     <div className="relative min-h-screen min-w-screen bg-tertiary">
       <div className={`fixed inset-0 ${bgImage} bg-fixed bg-no-repeat bg-cover z-0 opacity-75`}></div>
       <div className="relative">
-        <Navbar />
+        <Navbar windowWidth={windowWidth} />
         <div className="relative container px-6 pb-6 text-primary min-h-screen md:min-h-0 z-1 mx-auto md:px-10">
           <main>
             <Routes>

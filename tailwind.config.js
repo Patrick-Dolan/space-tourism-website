@@ -79,6 +79,7 @@ export default {
         "md-crew": "33.25rem",
         "nav-dot": "0.625rem",
         15: "3.75rem",
+        tiny: "1px"
       },
       width: {
         planet: "10.625rem",
@@ -86,7 +87,10 @@ export default {
         "nav-dot": "0.625rem",
         "smallest-screen": "600px",
         15: "3.75rem",
-        112: "28rem"
+        112: "28rem",
+        113: "28.25rem",
+        118: "29.5rem",
+        207: "51.75rem",
       },
       maxWidth: {
         103: "25.75rem",
@@ -101,6 +105,7 @@ export default {
         3: "3px"
       },
       gap: {
+        13: "3.25rem",
         39: "9.75rem"
       },
       opacity: {
@@ -108,6 +113,9 @@ export default {
       },
       backdropBlur: {
         tiny: "1px"
+      },
+      inset: {
+        "nav-thing": "50rem"
       },
     },
   },
