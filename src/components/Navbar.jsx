@@ -52,7 +52,6 @@ function Navbar({ windowWidth }) {
         {mobileNavOpen && (
           <MobileNav handleOverlayClick={handleOverlayClick} handleMobileNavToggle={handleMobileNavToggle} />
         )}
-        
         <nav className="hidden md:flex md:justify-center md:bg-opaque md:w-112 lg:w-207 backdrop-blur-2xl">
           <ul className="uppercase text-primary flex items-center gap-9 lg:gap-13 font-secondary md:min-h-24">
           {windowWidth >= 1440 && <div className="h-tiny w-118 bg-white opacity-25 absolute right-nav-accent"></div>}
