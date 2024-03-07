@@ -115,7 +115,7 @@ export default {
         tiny: "1px"
       },
       inset: {
-        "nav-thing": "50rem"
+        "nav-accent": "50rem"
       },
     },
   },
