@@ -51,6 +51,8 @@ export default {
         21: "5.25rem",
         26: "6.5rem",
         29: "7.25rem",
+        30: "7.5rem",
+        38: "9.5rem",
         63: "15.75rem",
         "mobile-button": "9.375rem",
         "tablet-button": "15.125rem",
@@ -84,6 +86,7 @@ export default {
         crew: "13.875rem",
         "md-crew": "33.25rem",
         "nav-dot": "0.625rem",
+        "lg-nav-dot": "0.938rem",
         15: "3.75rem",
         tiny: "1px"
       },
@@ -92,6 +95,7 @@ export default {
         ["planet-tablet"]: "18.75rem",
         ["planet-desktop"]: "27.75rem",
         "nav-dot": "0.625rem",
+        "lg-nav-dot": "0.938rem",
         "smallest-screen": "600px",
         15: "3.75rem",
         112: "28rem",
@@ -105,10 +109,22 @@ export default {
         112: "28rem",
         114: "28.5rem",
         143: "35.75rem",
+        148: "37rem",
+        122: "30.5rem",
+        153: "38.25rem",
+        154: "38.5rem",
         277: "69.25rem",
+      },
+      maxHeight: {
+        150: "37.5rem",
+        152: "38rem",
+        158: "39.5rem",
+        178: "44.5rem",
       },
       minHeight: {
         118: "29.5rem",
+        175: "43.75rem",
+        176: "44rem",
       },
       minWidth: {
         56: "14rem",
@@ -119,6 +135,7 @@ export default {
       },
       gap: {
         13: "3.25rem",
+        30: "7.5rem",
         39: "9.75rem",
         desktop: "24.125rem"
       },
