@@ -21,7 +21,7 @@ function CrewPage() {
             <div className="flex flex-row justify-center align-middle gap-7 mb-8 h-nav-dot lg:justify-start lg:mb-28">
               {crew.map((crewMember) => (
                 <div key={crewMember.name}>
-                  <button onClick={() => setSelectedCrewMember(crewMember)} className={`h-nav-dot w-nav-dot lg:h-lg-nav-dot lg:w-lg-nav-dot rounded-full ${crewMember.name === selectedCrewMember.name ? "bg-white" : "bg-inactive opacity-17"}`}></button>
+                  <button onClick={() => setSelectedCrewMember(crewMember)} className={`h-nav-dot w-nav-dot lg:h-lg-nav-dot lg:w-lg-nav-dot rounded-full hover:bg-hover hover:opacity-100 ${crewMember.name === selectedCrewMember.name ? "bg-white" : "bg-inactive opacity-17"}`}></button>
                 </div>
               ))}
             </div>
