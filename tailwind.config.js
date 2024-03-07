@@ -153,6 +153,9 @@ export default {
       inset: {
         "nav-accent": "50rem"
       },
+      boxShadow: {
+        "outline": "0 0 0 88px rgba(255, 255, 255, 0.1)"
+      },
     },
   },
   plugins: [],

@@ -12,7 +12,7 @@ function HomePage() {
         <div>
           <Link to="/destination">
             <button
-              className="uppercase h-mobile-button w-mobile-button md:h-tablet-button md:w-tablet-button lg:h-desktop-button lg:w-desktop-button bg-white rounded-full text-tertiary text-md-h5 tracking-wider block mx-auto mt-2 pt-2 md:mt-0 md:text-lg-h4"
+              className="uppercase h-mobile-button w-mobile-button md:h-tablet-button md:w-tablet-button lg:h-desktop-button lg:w-desktop-button bg-white rounded-full text-tertiary text-md-h5 tracking-wider block mx-auto mt-2 pt-2 md:mt-0 md:text-lg-h4 hover:shadow-outline"
             >
               Explore
             </button>
