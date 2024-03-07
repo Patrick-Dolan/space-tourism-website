@@ -71,7 +71,7 @@ function App() {
               <Route path="/" element={<HomePage />} />
               <Route path="/destination" element={<DestinationPage />} />
               <Route path="/crew" element={<CrewPage />} />
-              <Route path="/technology" element={<TechnologyPage />} />
+              <Route path="/technology" element={<TechnologyPage windowWidth={windowWidth} />} />
               <Route path="*" element={<NotFoundPage />} />
             </Routes>
           </main>
