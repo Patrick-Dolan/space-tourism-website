@@ -30,7 +30,7 @@ Users should be able to:
 <details open>
 <summary>Desktop Version</summary>
 
-<img src="./previews/Desktop.gif" alt="Desktop Version" height="500">
+<img src="./previews/Desktop.gif" alt="Desktop Version">
 </details>
 
 <details>
