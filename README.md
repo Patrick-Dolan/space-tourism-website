@@ -6,7 +6,7 @@ This is a solution to the [Space Tourism website challenge on Frontend Mentor](h
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Previews](#previews)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -25,15 +25,26 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - View each page and be able to toggle between the tabs to see new information
 
-<!-- ### Screenshot
+### Previews
 
-![](./screenshot.jpg)
+<details>
+<summary>Desktop Version</summary>
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+![Desktop Version](./previews/Desktop.gif)
+</details>
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+<details>
+<summary>Tablet Version</summary>
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above. -->
+![Tablet Version](./previews/Tablet.gif)
+</details>
+
+<details>
+<summary>Mobile Version</summary>
+
+![Mobile Version](./previews/Mobile.gif)
+</details>
+
 
 ### Links
 
@@ -71,7 +82,7 @@ I did a good bit of research on different methods for styling in React. Up to th
 
 I thoroughly enjoyed using Tailwind. Sometimes it feels like the number of `classNames` gets a bit out of control and I could see how even more complex sites could be a challenge to manage, but overall I enjoy the utility-first design. 
 
-I think one of the biggest things I want to work on in the future when using Tailwind is how I manage the layouts. I had a habit of adding spacing directly in the element I wanted to move when I think having less styling in a reusable component like `PageHeader.jsx` and instead just wrapping it in a div with the layout classes in the actual web page component makes more sense.
+I think one of the biggest things I want to work on in the future when using Tailwind is how I manage the layouts. I had a habit of adding spacing directly in the element I wanted to move when I thought having less styling in a reusable component like `PageHeader.jsx` and instead just wrapping it in a div with the layout classes in the actual web page component made more sense.
 
 ### Continued development
 
