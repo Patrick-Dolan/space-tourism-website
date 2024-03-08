@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Previews
 
-<details>
+<details open>
 <summary>Desktop Version</summary>
 
 <img src="./previews/Desktop.gif" alt="Desktop Version" height="500">
