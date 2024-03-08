@@ -10,16 +10,16 @@ function MobileNav({handleOverlayClick, handleMobileNavToggle}) {
       >
         <ul className="uppercase text-primary flex flex-col gap-8 font-secondary">
           <li>
-            <Link to="/" className="tracking-nav" onClick={handleMobileNavToggle}><span className="inline-block min-w-9 font-bold">00</span>Home</Link>
+            <Link to="/space-tourism-website/" className="tracking-nav" onClick={handleMobileNavToggle}><span className="inline-block min-w-9 font-bold">00</span>Home</Link>
           </li>
           <li>
-            <Link to="/destination" className="tracking-nav" onClick={handleMobileNavToggle}><span className="inline-block min-w-9 font-bold">01</span>Destination</Link>
+            <Link to="/space-tourism-website/destination" className="tracking-nav" onClick={handleMobileNavToggle}><span className="inline-block min-w-9 font-bold">01</span>Destination</Link>
           </li>
           <li>
-            <Link to="/crew" className="tracking-nav" onClick={handleMobileNavToggle}><span className="inline-block min-w-9 font-bold">02</span>Crew</Link>
+            <Link to="/space-tourism-website/crew" className="tracking-nav" onClick={handleMobileNavToggle}><span className="inline-block min-w-9 font-bold">02</span>Crew</Link>
           </li>
           <li>
-            <Link to="/technology" className="tracking-nav" onClick={handleMobileNavToggle}><span className="inline-block min-w-9 font-bold">03</span>Technology</Link>
+            <Link to="/space-tourism-website/technology" className="tracking-nav" onClick={handleMobileNavToggle}><span className="inline-block min-w-9 font-bold">03</span>Technology</Link>
           </li>
         </ul>
       </nav>

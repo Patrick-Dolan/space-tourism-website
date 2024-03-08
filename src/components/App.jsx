@@ -2,9 +2,9 @@ import HomePage from "./pages/HomePage";
 import NotFoundPage from "./pages/NotFoundPage";
 import DestinationPage from "./pages/DestinationPage";
 import CrewPage from "./pages/CrewPage";
+import TechnologyPage from "./pages/TechnologyPage";
 import Navbar from "./Navbar";
 import { Routes, Route, useLocation } from "react-router-dom";
-import TechnologyPage from "./pages/TechnologyPage";
 import { useEffect, useState } from "react";
 
 function App() {
@@ -68,10 +68,10 @@ function App() {
         <div className="relative container px-6 pb-6 text-primary min-h-screen md:min-h-0 z-1 mx-auto md:px-10 lg:p-0">
           <main>
             <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/destination" element={<DestinationPage />} />
-              <Route path="/crew" element={<CrewPage />} />
-              <Route path="/technology" element={<TechnologyPage windowWidth={windowWidth} />} />
+              <Route path="/space-tourism-website/" element={<HomePage />} />
+              <Route path="/space-tourism-website/destination" element={<DestinationPage />} />
+              <Route path="/space-tourism-website/crew" element={<CrewPage />} />
+              <Route path="/space-tourism-website/technology" element={<TechnologyPage windowWidth={windowWidth} />} />
               <Route path="*" element={<NotFoundPage />} />
             </Routes>
           </main>

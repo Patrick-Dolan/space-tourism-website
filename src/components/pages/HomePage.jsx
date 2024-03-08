@@ -10,7 +10,7 @@ function HomePage() {
           <p className="text-secondary md:max-w-103 md:mx-auto md:text-base lg:text-lg lg:m-0 lg:leading-lg lg:max-w-none">Let&apos;s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we&apos;ll give you a truly out of this world experience!</p>
         </div>
         <div>
-          <Link to="/destination">
+          <Link to="/space-tourism-website/destination">
             <button
               className="uppercase h-mobile-button w-mobile-button md:h-tablet-button md:w-tablet-button lg:h-desktop-button lg:w-desktop-button bg-white rounded-full text-tertiary text-md-h5 tracking-wider block mx-auto mt-2 pt-2 md:mt-0 md:text-lg-h4 hover:shadow-outline"
             >

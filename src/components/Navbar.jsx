@@ -20,19 +20,19 @@ function Navbar({ windowWidth }) {
 
   const paths = {
     home: {
-      path: "/",
+      path: "/space-tourism-website/",
       name: "Home",
     },
     destination: {
-      path: "/destination",
+      path: "/space-tourism-website/destination",
       name: "Destination",
     },
     crew: {
-      path: "/crew",
+      path: "/space-tourism-website/crew",
       name: "Crew",
     },
     technology: {
-      path: "/technology",
+      path: "/space-tourism-website/technology",
       name: "Technology",
     },
   };
@@ -40,7 +40,7 @@ function Navbar({ windowWidth }) {
   return (
     <>
       <header className="flex justify-between min-w-screen items-center px-6 pt-6 z-40 md:pt-0 md:px-0 lg:pt-10">
-        <Link to="/" className="md:ml-10 lg:ml-14">
+        <Link to="/space-tourism-website/" className="md:ml-10 lg:ml-14">
           <LogoIcon height={40} width={40}/>
         </Link>
         <button className="text-primary focus:outline-none md:hidden z-50" onClick={handleMobileNavToggle}>
