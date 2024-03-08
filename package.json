@@ -2,7 +2,7 @@
   "name": "space-tourism-website",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://Patrick-Dolan.github.io/space-tourism-website",
+  "homepage": "https://Patrick-Dolan.github.io/space-tourism-website/",
   "type": "module",
   "scripts": {
     "dev": "vite",
