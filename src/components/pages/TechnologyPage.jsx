@@ -10,9 +10,9 @@ function TechnologyPage({ windowWidth }) {
   let imagePath;
 
   if (windowWidth >= 1440) {
-    imagePath = selectedTechnology.images.portrait.substring(1);
+    imagePath = selectedTechnology.images.portrait;
   } else {
-    imagePath = selectedTechnology.images.landscape.substring(1);
+    imagePath = selectedTechnology.images.landscape;
   }
 
   return (
@@ -20,7 +20,7 @@ function TechnologyPage({ windowWidth }) {
       <PageHeader number="03" title="Space launch 101" />
       {/* The following div is an empty div used to make space for the absolutely positioned image below.*/}
       {windowWidth < 1440 && <div className="mt-8 md:mt-14" style={{ paddingTop: '45.3%' }} /> }
-      <img src={"./src" + imagePath} alt={`${selectedTechnology.name}`} className="mt-14 md:mt-21 absolute left-0 top-0 w-full lg:w-129 lg:left-auto lg:right-0 lg:bottom-25 lg:mt-12" />
+      <img src={imagePath} alt={`${selectedTechnology.name}`} className="mt-14 md:mt-21 absolute left-0 top-0 w-full lg:w-129 lg:left-auto lg:right-0 lg:bottom-25 lg:mt-12" />
       <div className="lg:flex lg:gap-20 lg:justify-normal lg:mt-34">
         <div className="flex justify-center gap-7 mt-12 md:my-12 lg:flex-col lg:mt-0">
           {technology.map((tech, index) => (

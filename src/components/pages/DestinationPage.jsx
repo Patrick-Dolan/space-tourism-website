@@ -13,7 +13,7 @@ function DestinationPage() {
         <div>
           <img
             className="h-planet w-planet mx-auto mt-8 mb-6 md:h-planet-tablet md:w-planet-tablet md:mt-15 md:mb-13 lg:h-planet-desktop lg:w-planet-desktop lg:m-0 lg:ml-10"
-            src={"./src" + selectedDestination.images.png.substring(1)}
+            src={selectedDestination.images.webp}
           />
         </div>
         <div className="lg:max-w-111 lg:text-left lg:">

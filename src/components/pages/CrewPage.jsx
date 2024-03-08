@@ -14,7 +14,7 @@ function CrewPage() {
         <div className="md:flex md:flex-col-reverse lg:flex-row-reverse lg:justify-between ">
           <div className="md:flex md:flex-col-reverse">
             <div className=" border-b-2 border-primary mt-8 mb-8 lg:m-0">
-              <img className="mx-auto h-crew md:w-md-crew md:h-md-crew lg:h-auto lg:min-w-112" src={"./src" + selectedCrewMember.images.png.substring(1)} />
+              <img className="mx-auto h-crew md:w-md-crew md:h-md-crew lg:h-auto lg:min-w-112" src={selectedCrewMember.images.webp} />
             </div>
           </div>
           <div className="md:flex md:flex-col-reverse text-center lg:text-left lg:justify-between lg:gap-30 lg:min-h-176">
