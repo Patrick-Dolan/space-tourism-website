@@ -30,19 +30,19 @@ Users should be able to:
 <details>
 <summary>Desktop Version</summary>
 
-![Desktop Version](./previews/Desktop.gif)
+<img src="./previews/Desktop.gif" alt="Desktop Version" height="300">
 </details>
 
 <details>
 <summary>Tablet Version</summary>
 
-![Tablet Version](./previews/Tablet.gif)
+<img src="./previews/Tablet.gif" alt="Tablet Version" height="300">
 </details>
 
 <details>
 <summary>Mobile Version</summary>
 
-![Mobile Version](./previews/Mobile.gif)
+<img src="./previews/Mobile.gif" alt="Mobile Version" height="300">
 </details>
 
 
