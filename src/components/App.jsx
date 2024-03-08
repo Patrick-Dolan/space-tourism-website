@@ -61,7 +61,7 @@ function App() {
   }
 
   return (
-    <div className="relative min-h-screen min-w-screen bg-tertiary lg:pb-12">
+    <div className="relative min-h-screen min-w-screen bg-tertiary">
       <div className={`fixed inset-0 ${bgImage} bg-fixed bg-no-repeat bg-cover z-0 opacity-75`}></div>
       <div className="relative min-h-screen min-w-screen">
         <Navbar windowWidth={windowWidth} />
