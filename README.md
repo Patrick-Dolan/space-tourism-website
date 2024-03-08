@@ -90,6 +90,8 @@ My biggest takeaway from this project is the use of TailwindCSS. I plan to conti
 
 I looked into CSS modules and "styled-components" before committing to learning Tailwind and overall I am happy with how it works. I do think there are some big things I can improve on with Tailwind since sometimes the number of class names gets a bit hard to read.
 
+This is also the first project where I had a Figma file and wow it's a game changer. Having a file where I can check exact fonts, distances between elements, sizes of borders, etc... is amazing. I understand why so many web developers I've listened to on YouTube and other places swear by Figma.  
+
 ### Useful resources
 
 - [Tailwind Docs](https://tailwindcss.com/docs/installation) - This is the first project I have created with TailwindCSS so the docs came in incredibly useful for both installing it and using it throughout the project. 
