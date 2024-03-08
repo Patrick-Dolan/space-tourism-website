@@ -20,7 +20,7 @@ function App() {
   let bgImage;
 
   switch (location.pathname) {
-    case "/":
+    case "/space-tourism-website/":
       if (windowWidth >= 1440) {
       bgImage = "bg-home-desktop";
       } else if (windowWidth >= 768) {
@@ -29,7 +29,7 @@ function App() {
       bgImage = "bg-home-mobile";
       }
       break;
-    case "/destination":
+    case "/space-tourism-website/destination":
       if (windowWidth >= 1440) {
       bgImage = "bg-destination-desktop";
       } else if (windowWidth >= 768) {
@@ -38,7 +38,7 @@ function App() {
       bgImage = "bg-destination-mobile";
       }
       break;
-    case "/crew":
+    case "/space-tourism-website/crew":
       if (windowWidth >= 1440) {
       bgImage = "bg-crew-desktop";
       } else if (windowWidth >= 768) {
@@ -47,7 +47,7 @@ function App() {
       bgImage = "bg-crew-mobile";
       }
       break;
-    case "/technology":
+    case "/space-tourism-website/technology":
       if (windowWidth >= 1440) {
       bgImage = "bg-technology-desktop";
       } else if (windowWidth >= 768) {
