@@ -41,7 +41,7 @@ function Navbar({ windowWidth }) {
     <>
       <header className="flex justify-between min-w-screen items-center px-6 pt-6 z-40 md:pt-0 md:px-0 lg:pt-10">
         <Link to="/space-tourism-website/" className="md:ml-10 lg:ml-14">
-          <LogoIcon height={40} width={40}/>
+          <LogoIcon height={windowWidth >= 768 ? 48 : 40} width={windowWidth >= 768 ? 48 : 40}/>
         </Link>
         <button className="text-primary focus:outline-none md:hidden z-50" onClick={handleMobileNavToggle}>
           {mobileNavOpen 
